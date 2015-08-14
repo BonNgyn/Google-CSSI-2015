@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+img {
+  width: 2000px;
+  height: 2000px; 
+}

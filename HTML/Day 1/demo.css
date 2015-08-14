@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+}
+p {
+  font-weight: bold;
+  font-family:cursive;
+  color: Green;
+}
+#welcome {
+  color: purple;
+  font-weight: bold;
+}
+#word1{
+  color:green;
+}
+.green_text{
+  color:green;
+}

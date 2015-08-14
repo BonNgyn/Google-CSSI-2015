@@ -1,0 +1,16 @@
+h1 {
+  font-family:monospace;
+  padding: 20px;
+  font-size: 8em;
+  color: blue;
+}
+body {
+  margin: auto;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.submit {
+  padding: 10px;
+}

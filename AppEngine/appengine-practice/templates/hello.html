@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Lab</title>
+    <link href='/stylesheet/hello.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <h1>Calcu - lator ;D</h1>
+
+    <p>Location of main file: {{filepath}}</p>
+
+
+    <p>Time of day: {{timeofday}}!</p>
+    <form action='/formhandler' method='POST'>
+      Name:</br>
+        <input type='text'name='realname'>
+        <input type='submit'name='Submit'>''
+    </form>
+    <form action='/calculator' method='POST'>
+      <br/>
+      <input type='number' name='number1'>
+      <select name='operations'>
+        <option value='add' name='add'>+</option>
+        <option value='subtract'>-</option>
+        <option value='multiply'>*</option>
+        <option value='divide'>/</option>
+      </select>
+      <input type='number' name='number2'>
+      <input type='submit' value=' = '>
+    </form>
+  </bdoy>
+</html>

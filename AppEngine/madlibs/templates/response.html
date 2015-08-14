@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Attack on {{pluralnoun1}}</title>
+    <link href='/stylesheets/style.css' rel='stylesheet' type='textcss'>
+  <head>
+  <body>
+    <h1>Attack on {{pluralnoun1}}</h1>
+
+    <p>It was a {{adje}} summer morning. Everyone was doing their daily chores.
+      The {{pluralnoun2}} were {{verbing}}, the {{pluralnoun3}}
+      were {{verbing2}}, and the {{pluralnoun4}} were {{verbing3}}.
+      Everyone was happy... UNTIL! The {{pluralnoun1}} attcked!
+    </p>
+    <p>
+      <img src='{{puppiesgif}}'> 
+      <ul>
+        {%for name in team_members%}
+        <li>{{name}}, {{team_members[name]['college']}}</li>
+        {%endfor%}
+      </ul>
+    </p>
+  </body>
+</html>

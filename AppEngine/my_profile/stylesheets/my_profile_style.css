@@ -1,0 +1,68 @@
+body {
+  position: center;
+  background-image: url("http://smhos.org/wp-content/uploads/2014/10/Silver-Blur-Background-Wallpaper.jpg");
+  background-attachment: fixed;
+  font-family: 'Poiret One', cursive;
+  background-size: cover;
+
+}
+.title {
+  position: relative;
+  font-weight: bold;
+  margin:auto;
+  text-align: center;
+  color: white;
+}
+.profilepic {
+  width:1px;
+  height: auto;
+}
+#name {
+  position: inherit;
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  padding-top: 25%;
+  padding-bottom: 27%;
+  /*border: 2px solid white;*/
+}
+ul {
+  list-style-type: none;
+  margin: auto;
+  text-align: center;
+}
+table {
+  margin: auto;
+  text-align: center;
+}
+.body {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 1em;
+}
+footer {
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 1rem;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+}
+.main {
+  background-color: white;
+  padding: 80px;
+  opacity: .7;
+  margin: auto;
+  text-align: center;
+
+}
+.contact span {
+  display: block;
+  margin: auto;
+  text-align: center;
+}

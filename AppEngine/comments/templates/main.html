@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comments</title>
+    <!-- <link href='/stylesheets/style.css' rel='stylesheet' type='textcss'> -->
+  <head>
+  <body>
+    <h1>Comments</h1>
+
+    
+    {%for comment in comments%}
+    <p>{{comment}}
+    {%endfor%}
+
+    {% set counter = 1%}
+    <form action='/addcomment' method='POST'>
+      {%for comment in comments%}
+        <input type='hidden' name='stored_comment' value='{{comment}}'/>
+      {%set counter = counter + 1%}
+      {%endfor%}
+      <input type='text' name='comment' value='Add your comment here...'>
+      </br>
+      <input type='submit' value='Add Comment'/>
+    </form>
+
+  </body>
+</html>
